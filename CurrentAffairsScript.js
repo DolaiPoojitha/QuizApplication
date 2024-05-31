@@ -132,14 +132,14 @@ function SubmitQuestion(){
 }
 function nextQuestion()
 {
-    document.getElementById('QuestionSubmit').disabled=false;
-    document.getElementById('nextButton').disabled=true;
-    document.getElementById('validateanswer').className="disabled";
-    document.getElementById('displayanswer').className="disabled";
-    document.getElementById('Explanation').className="disabled";
     currentQuestionIndex++;
     if(currentQuestionIndex < Data.length)
     {
+        document.getElementById('QuestionSubmit').disabled=false;
+        document.getElementById('nextButton').disabled=true;
+        document.getElementById('validateanswer').className="disabled";
+        document.getElementById('displayanswer').className="disabled";
+        document.getElementById('Explanation').className="disabled";
         let QuestionNo= currentQuestionIndex+1
         document.getElementById('QuestionNumber').textContent=`Question ${QuestionNo} of 15`;
         document.getElementById('Question').textContent=Data[currentQuestionIndex].question;
@@ -154,6 +154,28 @@ function nextQuestion()
     }
     else
     {
-        console.log(score)
+        const allElements = document.querySelectorAll('body *');
+        for( let ele of allElements)
+            {
+                ele.remove();
+            }
+        DisplayScore();
     }
+}
+function DisplayScore()
+{
+    //creating a new element
+    var newdiv = document.createElement('div');
+    newdiv.innerHTML="<h1>Current Affairs Quiz</h1>";
+    var child_para = document.createElement('p');
+    child_para.textContent="Score : "+score+" of 15";
+    newdiv.appendChild(child_para);
+    //Creating the button element
+    var showAnswers = document.createElement('button');
+    showAnswers.textContent = 'Show Answers';
+    newdiv.appendChild(showAnswers);
+    showAnswers.addEventListener('click', function() {
+        alert('Button was clicked!');
+    });
+    document.body.appendChild(newdiv);
 }
