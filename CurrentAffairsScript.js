@@ -45,6 +45,54 @@ const Data=[
         Explanation:"General Anil Chauhan was appointed as the Chief of Defence Staff(CDS) of India in september 2022."
         
     },
+    {
+        question:"What is the theme of the 2023 International Day of Yoga celebrated in India?",
+        options:["Yoga for Health","Yoga for Peace","Yoga for Wellness","Yoga for Humanity"],
+        answer:"Yoga for Humanity",
+        Explanation:"The theme for the 2023 International Day of Yoga was 'Yoga for Humanity,' highlighting the role of yoga in promoting global peace and well-being."
+    },
+    {
+        question:"The 'One Nation, One Ration Card' scheme was launched to benefit which section of society?",
+        options:["Farmers","Migrant workers","Students","Senior citizens"],
+        answer:"Migrant workers",
+        Explanation:"The 'One Nation, One Ration Card' scheme allows migrant workers to access their food ration from anywhere in India."
+    },
+    {
+        question:"The National Education Policy (NEP) 2020 aims to achieve which of the following by 2030?",
+        options:["100% Gross Enrollment Ratio (GER) in school education","50% Gross Enrollment Ratio (GER) in higher education","100% literacy rate","50% literacy rate"],
+        answer:"50% Gross Enrollment Ratio (GER) in higher education",
+        Explanation:"The NEP 2020 aims to achieve a 50% GER in higher education by 2030."
+    },
+    {
+        question:"What is the name of the mission launched by the Indian government to promote electric vehicles?",
+        options:["FAME India","Green India","EV India","E-Mobility India"],
+        answer:"FAME India",
+        Explanation:"The Faster Adoption and Manufacturing of Hybrid and Electric Vehicles (FAME) India scheme promotes electric vehicles."
+    },
+    {
+        question:"Which Indian airport was declared the best airport in the 2022 Skytrax World Airport Awards?",
+        options:["Indira Gandhi International Airport, Delhi","Chhatrapati Shivaji Maharaj International Airport, Mumbai","Kempegowda International Airport, Bengaluru","Rajiv Gandhi International Airport, Hyderabad"],
+        answer:"Indira Gandhi International Airport, Delhi",
+        Explanation:"Indira Gandhi International Airport in Delhi was declared the best Indian airport in the Skytrax World Airport Awards 2022."
+    },
+    {
+        question:"Who is the first Indian woman to win a silver medal in boxing at the Olympics?",
+        options:["Mary Kom","P. V. Sindhu","Lovlina Borgohain","Sakshi Malik"],
+        answer:"Lovlina Borgohain",
+        Explanation:"Lovlina Borgohain won a silver medal in boxing at the Tokyo 2020 Olympics."
+    },
+    {
+        question:"Which Indian state is the largest producer of solar energy as of 2024?",
+        options:["Rajasthan","Gujarat","Tamil Nadu","Karnataka"],
+        answer:"Rajasthan",
+        Explanation:"Rajasthan is the largest producer of solar energy in India, leveraging its vast desert areas for solar farms."
+    },
+    {
+        question:"Who is the current Defence Minister of India (as of 2024)?",
+        options:["Rajnath Singh","Nirmala Sitharaman","Amit Shah","Piyush Goyal"],
+        answer:"Rajnath Singh",
+        Explanation:"Rajnath Singh has been serving as the Defence Minister of India since May 2019."
+    },
     ]
 
 
